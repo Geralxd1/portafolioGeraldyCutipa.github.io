@@ -1,0 +1,29 @@
+.about{
+    background-color: #B3DFFD;
+}
+.about__container{
+    width: 84%;
+    margin: 1% 8%;
+    padding: 4rem 0;
+}
+.about__title{
+    font-size: 2rem;
+    color:#001F3F;
+}
+.about__paragraph{
+    width: 60%;
+    color: #333333;
+}
+@media (max-width: 480px){
+    .about__container{
+        padding: 0;
+    }
+    .about__title{
+        font-size: 1.375rem;
+    }
+    .about__paragraph{
+        width: 100%;
+        font-size: 0.875rem;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,10 @@
+.menu__header{
+    display: flex;
+    width: 10%;
+    align-items: center;
+}
+.menu__title{
+    white-space: nowrap;
+    padding-left: 1rem;
+    color:#FFFFFF;
+}
